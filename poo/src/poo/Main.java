@@ -6,10 +6,17 @@ public class Main {
 		
 		System.out.println("Inicio del programa");
 
-		Persona boy = new Persona();
+		Usuario boy = new Usuario();
 		
-		Persona girl = new Persona();
+		Usuario girl = new Usuario();
 		
+		boy.lanzar();
+		girl.bloqueo();
+		girl.lanzar();
+		boy.lanzar();
+		boy.bloqueo();
+		girl.contra();
+		boy.win();
 	}
 	//Que es un objeto
 	/*Un abstracccion de la realidad*/
