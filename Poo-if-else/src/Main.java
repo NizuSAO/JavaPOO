@@ -11,7 +11,7 @@ public class Main {
 		/**/
 		
 		
-		if(num>5) {//true false
+		if(num > 5) {//true false
 			
 			//instrucciones
 			System.out.println("El numero es menor a 10");
