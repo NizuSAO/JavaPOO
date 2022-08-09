@@ -5,6 +5,6 @@ $password = "";
 $database = "registro_anrdroid;
 $conn = new mysqli($server, $username, $password, $database);
 if($conn->conncet_error){
-    die("Connection failed: ". $conn->connect);
+    die("Connection failed: ". $conn->connect_error);
 }
 ?>
